@@ -1,0 +1,143 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "buenas",
+                "buen dia",
+                "buenas tardes",
+                "hey",
+                "que tal",
+                "hola como estas"
+            ],
+            "responses": [
+                "¡Hola! ¿En qué trámite te puedo ayudar hoy?",
+                "¡Buenas! Contame qué necesitás saber"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "chau",
+                "gracias",
+                "muchas gracias",
+                "adios",
+                "listo gracias",
+                "nos vemos",
+                "eso era todo"
+            ],
+            "responses": [
+                "¡De nada! Cualquier otra duda, acá estoy",
+                "Chau, éxitos con el trámite"
+            ]
+        },
+        {
+            "tag": "pasantias",
+            "patterns": [
+                "requisitos para pasantias",
+                "que necesito para hacer la pasantia",
+                "practicas profesionalizantes",
+                "fecha de inscripcion a pasantias",
+                "como me anoto a una practica profesionalizante",
+                "cuando empiezan las pasantias",
+                "papeles pasantia",
+                "paractica profesionalizante requisitos",
+                "pasantia empresa",
+                "ppp requisitos",
+                "requicitos pasantia",
+                "ppp cuando empiezan",
+                "pasantia obligatoria?"
+            ],
+            "responses": [
+                "Para las Prácticas Profesionalizantes (PPP) necesitás:\n- Tener el 70% de materias aprobadas,\n- Entregar la ficha de inscripción firmada por un adulto responsable y el seguro escolar vigente.\nLa inscripción se abre en marzo y agosto. Más info en preceptoría."
+            ]
+        },
+        {
+            "tag": "seguridad_talleres",
+            "patterns": [
+                "protocolo de seguridad en el taller",
+                "que elementos de seguridad necesito para el taller",
+                "normas del laboratorio",
+                "uso de herramientas en taller",
+                "que tengo que usar en el taller",
+                "elementos de proteccion personal",
+                "reglas del taller",
+                "seguridad en laboratorio",
+                "puedo entrar al taller sin guardapolvo",
+                "que ropa uso en el taller",
+                "guardapolvo obligatorio",
+                "seguridad talleres"
+            ],
+            "responses": [
+                "En Talleres y Laboratorios es obligatorio el uso de guardapolvo, anteojos de protección y calzado cerrado. No se puede manipular herramientas eléctricas sin la supervisión del profesor a cargo. El incumplimiento impide el ingreso al espacio."
+            ]
+        },
+        {
+            "tag": "mesas_examen",
+            "patterns": [
+                "cuando son las mesas de examen",
+                "fechas de mesas de examen",
+                "como rindo una previa",
+                "equivalencias de materias",
+                "inscripcion a mesas de examen",
+                "cuando puedo rendir una previa",
+                "mesa de examen diciembre",
+                "mesa de examen febrero",
+                "como pido equivalencia",
+                "mesa examen fechas",
+                "cuando puedo dar una previa",
+                "equivalencia como se pide"
+            ],
+            "responses": [
+                "Las mesas de examen (previas y equivalencias) se toman en diciembre, febrero y julio. La inscripción se hace por Secretaría con al menos 5 días hábiles de anticipación, presentando la libreta o el DNI."
+            ]
+        },
+        {
+            "tag": "documentacion",
+            "patterns": [
+                "constancia de alumno",
+                "certificado regular",
+                "papel para la obra social",
+                "como pido el analitico",
+                "necesito el certificado de alumno regular",
+                "quiero sacar la constancia",
+                "donde pido el analitico",
+                "certificado de estudios",
+                "necesito un papel que diga que soy alumno",
+                "constansia alumno",
+                "necesito un serificado",
+                "analitico como lo saco"
+            ],
+            "responses": [
+                "La constancia de alumno regular y los analíticos se solicitan en Secretaría, de forma presencial o por el formulario web. El trámite demora entre 24 y 48 horas hábiles y es gratuito."
+            ]
+        },
+        {
+            "tag": "horarios_secretaria",
+            "patterns": [
+                "horario de secretaria",
+                "a que hora abre secretaria",
+                "cuando puedo ir a secretaria",
+                "horarios de atencion",
+                "hasta que hora atienden"
+            ],
+            "responses": [
+                "Secretaría atiende de lunes a viernes de 8 a 13 hs y de 14 a 17 hs. Los sábados no hay atención."
+            ]
+        },
+        {
+            "tag": "wifi",
+            "patterns": [
+                "wifi de la escuela",
+                "contraseña del wifi",
+                "hay internet en la escuela",
+                "clave del wifi",
+                "como me conecto al wifi"
+            ],
+            "responses": [
+                "La red wifi es 'BAescuela'. No requiere contraseña. Para tener internet, una vez que te conectes te aparecerá una pantalla. Debes hacer clic en el botón que aparece para activar la red."
+            ]
+        }
+    ]
+}
