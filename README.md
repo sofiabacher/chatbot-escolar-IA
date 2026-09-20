@@ -105,11 +105,6 @@ Si tu backend corre en otro puerto o dominio, actualizá la constante `API_URL` 
 4. **API REST:** `POST /chat` recibe `{"message": "..."}` y devuelve `{"respuesta": "...", "intencion": "...", "confianza": 0.xx}`.
 5. **Frontend:** `script.js` manda la pregunta por `fetch` al backend y pinta la respuesta en el chat, distinguiendo visualmente los mensajes de fallback (fondo amarillo) de las respuestas normales.
 
-## Errores ya corregidos durante el desarrollo (por si vuelven a aparecer)
-
-- **Botón "Enviar" no hacía nada:** el `onclick` en `index.html` llamaba a `enviarmensaje()` (minúscula) pero la función en `script.js` se llama `enviarMensaje()`. JavaScript distingue mayúsculas de minúsculas.
-- **Los mensajes de fallback no se mostraban:** en `script.js`, `classList.add('message', tipo)` falla cuando `tipo` tiene más de una clase separada por espacio (ej. `'bot-message fallback'`), porque `classList.add` espera una clase por argumento. Se reemplazó por `div.className = ...`, que sí acepta varias clases en un solo string.
-
 ## Posibles mejoras (para ir más allá del mínimo)
 
 - Reemplazar la tokenización manual por `nltk` o `spaCy` con stemming/lematización, para tolerar mejor errores ortográficos y variantes morfológicas.
